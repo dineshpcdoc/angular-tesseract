@@ -1,0 +1,11 @@
+<div>
+
+    <input type="file" (change)="readFile($event)">
+</div>
+<div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+</div>
+<div>
+    <div id="textOutput" style="border: 1px solid #000;;width:500px;height:300px" [innerHTML]="outputText">
+    </div>
+</div>
